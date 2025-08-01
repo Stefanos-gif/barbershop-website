@@ -1,7 +1,6 @@
 <section class="booking my-16 px-6">
   <div class="max-w-5xl mx-auto text-center">
     <h2 class="text-4xl font-semibold">Book Your Appointment</h2>
-    <h2 class="text-4xl font-semibold">_</h2>
   </div>
   <div class="max-w-5xl mx-auto text-center mt-8">
     <div
@@ -100,16 +99,6 @@
     }
   }
 
-  .booking form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  button:hover {
-    transform: scale(1.05);
-    transition: all 0.3s ease;
-  }
 
   .relative.bg-cover:hover .absolute {
     opacity: 0.6; /* Increases opacity on hover */
